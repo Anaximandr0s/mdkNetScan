@@ -7,6 +7,8 @@
   <a href="https://github.com/doukkani17moha/mdkNetScan/stargazers"><img src="https://img.shields.io/github/stars/doukkani17moha/mdkNetScan"></a>
 </p>
 
+![alt text](https://github.com/doukkani17moha/Ddos-Tool/blob/main/DDOS-TOOL.PNG)
+
 ## How it works
 - ### Scan all, common, or range ports
 Sends a TCP SYN packet to the destination on the defined port using threads for each port, enhancing the scanning speed. If the port is open, it utilizes a function (`get_service_name`) to determine the service running on the port. The get_service_name function leverages the (`socket`)socket library to retrieve the service name associated with the given port. If the service name is found, it is printed; otherwise, it is labeled as "Unknown Service." This threaded approach allows for a more efficient and rapid scan of multiple ports.
