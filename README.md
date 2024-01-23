@@ -7,7 +7,7 @@
   <a href="https://github.com/doukkani17moha/mdkNetScan/stargazers"><img src="https://img.shields.io/github/stars/doukkani17moha/mdkNetScan"></a>
 </p>
 
-![alt text](https://github.com/doukkani17moha/Ddos-Tool/blob/main/DDOS-TOOL.PNG)
+![alt text](https://github.com/doukkani17moha/mdkNetScan/blob/main/mdkNetScan.png)
 
 ## How it works
 - ### Scan all, common, or range ports
