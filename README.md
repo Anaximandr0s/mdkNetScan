@@ -9,7 +9,7 @@
 
 ## How it works
 - ### Scan all, common, or range ports
-Sends a TCP SYN packet to the destination on the defined port. If the port is open, it uses a function (`get_service_name`) to determine the service running on the port. This function utilizes the `socket` library to retrieve the service name associated with the given port. If the service name is found, it is printed; otherwise, it is labeled as "Unknown Service."
+Sends a TCP SYN packet to the destination on the defined port using threads for each port, enhancing the scanning speed. If the port is open, it utilizes a function (`get_service_name`) to determine the service running on the port. The get_service_name function leverages the (`socket`)socket library to retrieve the service name associated with the given port. If the service name is found, it is printed; otherwise, it is labeled as "Unknown Service." This threaded approach allows for a more efficient and rapid scan of multiple ports.
 
 - ### Discover hosts in network
 Uses the router's IP as a base to map all possible IPs. You can specify the protocol used (ICMP, ARP) to send a packet to each IP and waits for a response. If it receives any response, it saves the IP of the online host. When it finishes checking all hosts, it prints all online hosts.
