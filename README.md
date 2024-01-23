@@ -90,5 +90,11 @@ mdkNetScan.py -sP 1-443 -H 192.168.1.105
 mdkNetScan.py -sO -H 192.168.1.105
 ```
 
+## Contributing
+
+Feel free to fork this project, add new functionalities, or resolve any issues you encounter. Your contributions are highly welcomed and can make this tool even better. If you have ideas for improvements, new features, or bug fixes, please open an issue or submit a pull request.
+
+Let's collaborate to make `mdkNetScan` more powerful and efficient together!
+
 ## License
 Created By [Mohamed Doukkani](https://www.linkedin.com/in/mohamed-doukkani/) with ❤️, Happy hacking!
