@@ -4,5 +4,5 @@
   <a href="https://www.linkedin.com/in/mohamed-doukkani/"><img src="https://img.shields.io/badge/made%20by-mdk19-blue"></a>
   <a href="https://github.com/doukkani17moha/mdkNetScan/issues"><img src="https://img.shields.io/github/issues/doukkani17moha/mdkNetScan"></a>
   <a href="https://github.com/doukkani17moha/mdkNetScan/releases/latest"><img src="https://img.shields.io/github/release-date/doukkani17moha/mdkNetScan"></a>
-  <img src="https://img.shields.io/github/repo-size/doukkani17moha/mdkNetScan">
+  <a href="https://github.com/doukkani17moha/mdkNetScan/stargazers"><img src="https://img.shields.io/github/stars/doukkani17moha/mdkNetScan"></a>
 </p>
